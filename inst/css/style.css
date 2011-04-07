@@ -1,0 +1,26 @@
+
+#tooltip {  
+	display:none;
+    position:absolute;  
+    z-index:9999;  
+    color:#000;  
+    font-size:11px;  
+    width:100px;   
+    height:10px;
+    background-color:#66c;  
+}  
+  
+#tooltip .tipHeader {  
+    height:8px;  
+    background-color:#66c;  
+    padding:5px 5px 5px 5px;
+}  
+  
+/* IE */  
+*html #tooltip .tipHeader {margin-bottom:-6px;}  
+  
+#tooltip .tipBody {  
+    background-color:#66c;  
+    padding:5px 5px 5px 15px;  
+}  
+
