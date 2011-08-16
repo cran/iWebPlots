@@ -11,7 +11,7 @@ var select3d= 0;
 $(document).ready(function()
 {
 	/* Add a CSS file */
-	$("head").append('<link href="style.css" rel="stylesheet" type="text/css"/>');
+	$("head").append('<link href="css/style.css" rel="stylesheet" type="text/css"/>');
     
 	/* onClick events for the image map */
 	$("map area").click(function(e) {
@@ -32,7 +32,7 @@ $(document).ready(function()
 		$("#tooltip").fadeIn('100');  
 		$("#tooltip").fadeTo('10',0.8); 
                 
-		setTimeout(function(){ $("#tooltip").fadeOut(); }, 3000);
+		setTimeout(function(){ $("#tooltip").hide(); }, 3000);
 		
 	}).mouseout(function() {  
       	   $('#tooltip').hide();    

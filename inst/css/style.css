@@ -1,3 +1,22 @@
+#content{
+    width:1010px;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageMap{
+    width:1000px;
+    float: inherit;
+}
+
+#dTable, #dataTable_wrapper{
+    width:1000px;
+}
+
+#dataTable {
+    font-family:"Times New Roman", Times, serif;
+}
 
 #tooltip {  
 	display:none;
@@ -17,7 +36,7 @@
 }  
   
 /* IE */  
-*html #tooltip .tipHeader {margin-bottom:-6px;}  
+#tooltip .tipHeader {margin-bottom:-6px;}  
   
 #tooltip .tipBody {  
     background-color:#66c;  
